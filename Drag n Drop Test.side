@@ -1,0 +1,35 @@
+{
+  "id": "90fbde35-b26f-46f6-ad04-29d94742c3b1",
+  "version": "2.0",
+  "name": "Drag n Drop Test",
+  "url": "https://play2.automationcamp.ir/",
+  "tests": [{
+    "id": "0005584d-079f-45d8-9c4c-0040e91c539c",
+    "name": "DragDropTest",
+    "commands": [{
+      "id": "077bfa92-169c-42d0-bbd1-b6ef4aa52789",
+      "comment": "",
+      "command": "open",
+      "target": "https://play2.automationcamp.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9cedd82-015e-4ab9-a86c-84bc43c9cc15",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=drag1",
+      "targets": [],
+      "value": "id=div1"
+    }]
+  }],
+  "suites": [{
+    "id": "1b2f3ca7-6cb8-47fb-b23b-353a13cd0bc1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0005584d-079f-45d8-9c4c-0040e91c539c"]
+  }],
+  "urls": ["https://play2.automationcamp.ir/"],
+  "plugins": []
+}
